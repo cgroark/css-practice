@@ -1,0 +1,29 @@
+div{
+	height: 150px;
+	width: 250px;
+	border: solid black 2px;
+	padding: 20px;
+}
+.red{
+	background-color: red;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	top: 50px;
+}
+
+.blue{
+	background-color: blue;
+	display: inline;
+	color: white;
+	position: relative; 
+	left: 330px;
+}
+.green{
+	background-color: green;
+	display: inline-block;
+	position: fixed;
+	left: 330px
+	top: 510px;
+	z-index: 99;
+}
