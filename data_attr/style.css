@@ -1,0 +1,13 @@
+div{
+	height: 200px;
+	width: 400px;
+}
+.rockets{
+	position: absolute;
+	left: 0;
+	transition: left 0s linear 0s;
+	background-color: red;
+}
+div.rockets[data-altitude="100"]{
+	transform: rotate(10deg);
+}
